@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tab-form-container {
+  height: 500px;
+}
+
+.headings-container {
+  display: flex;
+  align-items: center;
+}
+
+.headings {
+  border: 1px solid black;
+  padding: 10px 15px;
+  min-width: 100px;
+  cursor: pointer;
+}
+
+.body {
+  border: 1px solid black;
+  width: 394px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 280px;
+  gap: 20px;
+}
+
+.profile-fields {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.errors {
+  color: red;
+  font-size: 10px;
+  padding: 2px;
+}
